@@ -7,7 +7,7 @@ Slug: my-super-post
 Authors: Crow
 Summary: This is the first entry.
 
-Jim was here
+Jim2 was here
 
 The next entry should be a description of the technology used:
 Python
