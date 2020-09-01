@@ -11,6 +11,12 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
+# https://rasor.github.io/using-pelican-themes.html
+THEME = 'simple'
+#STATIC_PATHS = ['img', 'static']
+#FAVICON = 'img/favicon.ico'
+#CUSTOM_CSS = 'static/custom.css'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
