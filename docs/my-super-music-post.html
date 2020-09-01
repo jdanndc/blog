@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>  Authors
- - Our Blog</title>
+<title>My fist update - Our Blog</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold">
@@ -24,6 +23,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="HandheldFriendly" content="True" />
 
+    <meta name="author" content="Crow" />
+    <meta name="description" content="This is the first entry." /> 
+    <meta name="keywords" content="pelican, publishing"> 
+
+    <!-- Facebook OpenGraph -->
+    <meta property="og:site_name" content="Our Blog">
+    <meta property="og:title" content="My fist update - Our Blog" />
+    <meta property="og:description" content="This is the first entry." />
+    <meta property="og:image" content="">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="/my-super-music-post.html" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My fist update - Our Blog">
+    <meta name="twitter:description" content="This is the first entry.">
+    <meta name="twitter:image" content="">
 </head>
 <body>
   <div class="w3-row w3-card w3-white">
@@ -32,22 +50,60 @@
       <a href="" id=logo title="Home">TM</a>
       <nav id="menu">
         <ul>
-          <li ><a href="/category/music.html">music</a></li>
+          <li style="font-weight: bold;"><a href="/category/music.html">music</a></li>
           <li ><a href="/category/python.html">Python</a></li>
         </ul>
       </nav>
     </header>
   </div>
 <br>
-<br>
-<div class="w3-container col-main">
-  <h1>  About me
-</h1>
+<article>
+  <header class="w3-container col-main">
+    <h1>My fist update</h1>
+    <div class="post-info">
+      <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
+        <span>  Posted on Tue 01 September 2020 in <a href="/category/music.html" style="font-style: italic">music</a>
+
+        </span>
+      </div>
+      <div id="article-tags">
+        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
+          <a href="/tag/pelican.html" title="  All posts about Pelican
+">#pelican</a>
+        </span>
+        <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
+          <a href="/tag/publishing.html" title="  All posts about Publishing
+">#publishing</a>
+        </span>
+      </div>
+    </div>
+  </header>
   <br>
+  <div class="col-main w3-container">
+    <main id="article-content">
+      <p>Jim2 was here to talk about music</p>
+<p>explain here how we will study songs on the road and then learn, practice, perform and record them on site.</p>
+    </main>
+    <br>
+    <footer>
+      <div class="adjust-width">
+        <div id="author-block" class="w3-light-grey w3-border">
+            <img style="width: 35px; height: 56px; margin-left:50px;" src="theme/images/bookmark-red.png" alt="bookmark"></img>
+            <div id="author-info">
+                <a href="/authors.html#crow"><img style="width: 60px; height: 60px;" src="/authors/crow.png" onerror="this.src='/theme/images/avatar.png'"></img>
+                </a>
+                <div style="margin-left: 20px; margin-top: 15px;">
+                    <a href="/authors.html#crow"><span id="author-name" class="w3-hover-text-dark-grey">Crow</span></a>
+                    <p id="author-story" style="max-width: 500px;"></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <br>
+    </footer>
   </div>
-  <br>
-  <br>
-  <br>
+</article>
+<br>
   <footer id="contentinfo">
     <div id="blogroll" class="w3-row">
         <div class="blogroll-block w3-col l3 m3 s6">

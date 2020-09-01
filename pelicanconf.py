@@ -12,10 +12,18 @@ TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 
 # https://rasor.github.io/using-pelican-themes.html
-THEME = 'simple'
+#THEME = '/Users/jdann/dev/pelican/pelican-themes/franticworld'
+#THEME = '/Users/jdann/dev/pelican/pelican-themes/gum'
+THEME = '/Users/jdann/dev/pelican/pelican-other-themes/minimalX'
+DISPLAY_CATEGORIES_ON_MENU = True
 #STATIC_PATHS = ['img', 'static']
 #FAVICON = 'img/favicon.ico'
 #CUSTOM_CSS = 'static/custom.css'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["tag_cloud"]
+
+USE_FOLDER_AS_CATEGORY = 'True'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

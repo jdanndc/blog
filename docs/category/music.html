@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>  Authors
- - Our Blog</title>
+<title>music - Our Blog</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,bold">
@@ -24,6 +23,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="HandheldFriendly" content="True" />
 
+    <meta name="author" content="Team Mikinaak" />
+    <meta name="description" content="" /> 
+
+    <!-- Facebook OpenGraph -->
+    <meta property="og:site_name" content="Our Blog">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" itemprop="image" content="/images/Our Blog.png">
+    <meta property="og:type" content="blog" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="/images/Our Blog.png">
+    
 </head>
 <body>
   <div class="w3-row w3-card w3-white">
@@ -32,22 +48,55 @@
       <a href="" id=logo title="Home">TM</a>
       <nav id="menu">
         <ul>
-          <li ><a href="/category/music.html">music</a></li>
+          <li style="font-weight: bold;"><a href="/category/music.html">music</a></li>
           <li ><a href="/category/python.html">Python</a></li>
         </ul>
       </nav>
     </header>
   </div>
+<div id="content-title-category-img" class="w3-row w3-border-bottom w3-animate-opacity w3-hide-small w3-light-grey" style="background-image: url('/images/music.jpg');">
+<div class="col-main">
+<!--  <span id="content-title-category" class="w3-text-white">music</span> -->
+</div>
+</div>
 <br>
 <br>
-<div class="w3-container col-main">
-  <h1>  About me
-</h1>
-  <br>
+<section id="content">
+<!-- Blog entries -->
+<article class="w3-container w3-card-2 w3-white col-main">
+  <header>
+  <div class="headerimage-card">
+    <a href="/my-super-music-post.html"><img src="" style="width: 100%;"></img></a>
   </div>
-  <br>
-  <br>
-  <br>
+  <h1><a href="/my-super-music-post.html">My fist update</a></h1>
+  <div class="post-info">
+    <div class="w3-opacity w3-margin-right w3-margin-bottom" style="flex-grow: 1;">
+      <span>  Posted on Tue 01 September 2020 in <a href="/category/music.html" style="font-style: italic">music</a>
+
+      </span>
+    </div>
+    <div id="article-tags" class="w3-margin-right">
+      <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
+          <a href="/tag/pelican.html" title="  All posts about Pelican
+">#pelican</a>
+        </span>
+      <span class="w3-tag w3-light-grey w3-text-red w3-hover-red">
+          <a href="/tag/publishing.html" title="  All posts about Publishing
+">#publishing</a>
+        </span>
+    </div>
+  </div>
+</header>
+  <div class="entry-content"><p>This is the first entry.</p></div>
+  <footer>
+  <a class="w3-btn w3-red w3-right w3-margin" href="/my-super-music-post.html">  Continue reading
+ &#10093;</a>
+  </footer>
+</article>
+<br>
+<br>
+<br>
+</section>
   <footer id="contentinfo">
     <div id="blogroll" class="w3-row">
         <div class="blogroll-block w3-col l3 m3 s6">
