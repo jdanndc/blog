@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Our Blog - Python</title><link href="http://jdanndc.github.io/blog/" rel="alternate"></link><link href="http://jdanndc.github.io/blog/feeds/python.atom.xml" rel="self"></link><id>http://jdanndc.github.io/blog/</id><updated>2020-09-01T12:20:00-04:00</updated><entry><title>My fist update</title><link href="http://jdanndc.github.io/blog/my-super-post.html" rel="alternate"></link><published>2020-09-01T12:20:00-04:00</published><updated>2020-09-01T12:20:00-04:00</updated><author><name>Crow</name></author><id>tag:jdanndc.github.io,2020-09-01:/blog/my-super-post.html</id><summary type="html">&lt;p&gt;This is the first entry.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The next entry should be a description of the technology used:
-Python
-Pelican
-Git
-github.io
-venv&lt;/p&gt;</content><category term="Python"></category><category term="pelican"></category><category term="publishing"></category></entry></feed>
