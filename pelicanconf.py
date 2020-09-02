@@ -14,7 +14,7 @@ DEFAULT_LANG = 'en'
 # https://rasor.github.io/using-pelican-themes.html
 #THEME = '/Users/jdann/dev/pelican/pelican-themes/franticworld'
 #THEME = '/Users/jdann/dev/pelican/pelican-themes/gum'
-THEME = '/Users/jdann/dev/pelican/pelican-other-themes/minimalX'
+#THEME = '/Users/jdann/dev/pelican/pelican-other-themes/minimalX'
 DISPLAY_CATEGORIES_ON_MENU = True
 #STATIC_PATHS = ['img', 'static']
 #FAVICON = 'img/favicon.ico'
